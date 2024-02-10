@@ -10,7 +10,7 @@ def add_custom_title_page(canvas, doc):
     canvas.setFont('Times-Bold', 16)
     canvas.drawCentredString(letter[0]/2.0, letter[1]-108, "Project-1: Division Table Algorithm")
     canvas.setFont('Times-Roman', 14)
-    canvas.drawCentredString(letter[0]/2.0, letter[1]-128, "Prepared by: Kinjal Pandey, Daniella Efrach")
+    canvas.drawCentredString(letter[0]/2.0, letter[1]-128, "Prepared by: Kinjal Pandey, Daniella Efrach, Mallika Gupta")
     canvas.restoreState()
 
 def extended_gcd(a, b):
